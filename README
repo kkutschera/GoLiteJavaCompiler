@@ -1,25 +1,9 @@
+GoLite Project 
+COMP 520 - McGill University
+
+Compiler from a subset of Go, GoLite, to Java.
+
+Team:
 Pavel Kondratyev (ID: 260653115)
 Kaylee Kutschera (ID: 260608470)
 Kabilan Sriranjan (ID: 260671847)
-
-
-Scanner/Parser Test Programs to Grade:
-Valid - validX.go, where X is a number 1-6.
-Invalid - assign1.go, break2.go, continue2.go, comment1.go, comment2.go, 
-          for1.go, for3.go, for4.go, funcDecl1.go, funcDecl2.go,
-          funcDecl3.go, funcDecl4.go, if1.go, if2.go, invalidFunc.go, 
-          invalidFuncReturn.go, invalidInt1.go, invalidInt2.go, invalidInt3.go, invalidRune1.go,
-          invalidRune2.go, invalidRune3.go, invalidString1.go, invalidString2.go, invalidString3.go, 
-          invalidSwitchReturn1.go, invalidTopDecl1.go, invalidTopDecl2.go, package.go, program.go
-
-
-Typecheck Test Programs to Grade:
-3.4-return-wrongType.go, 3.4-return-extra.go, 3.5-shortDecl-declared1.go, 3.5-shortDecl-typeChange.go, 3.7-assignment-struct.go
-3.7-assignment-types1.go, 3.10-print-baseType1.go, 3.10-println-baseType1.go, 3.11-forLoop-exprBool1.go, 3.12-ifStmt-exprBool1.go,
-3.14-dec-invalidType1.go, 3.14-incr-invalidType2.go, 4.3-unaryExp-!1.go, 4.3-unaryExp-ˆ1.go, 4.3-unaryExp-+1.go,
-4.3-unaryExp–1.go, 4.4-binaryExp-||4.go, 4.4-binaryExp--6.go, 4.4-binaryExp-<<5.go, 4.5-funcCall-funcType.go,
-4.5-funcCall-params1.go, 4.5-funcCall-params2.go, 4.6-index-index1.go, 4.6-index-exp1.go, 4.7-fieldSelect-exp1.go,
-4.7-fieldSelect-id1.go, 4.8.1-append-elem1.go, 4.8.1-append-slice1.go, 4.8.2-cap-exp1.go, 4.8.3-len-exp2.go
-
-First 3 Semantic Code Generation Test Programs to Grade:
-ifStmt.go, funcDecls.go, structsSubmit.go
